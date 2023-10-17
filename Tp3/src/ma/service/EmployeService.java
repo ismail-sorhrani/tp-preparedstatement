@@ -19,7 +19,7 @@ import ma.dao.IDao;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class EmployeService implements IDao<Employe> {
 

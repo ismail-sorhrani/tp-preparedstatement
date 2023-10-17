@@ -1,4 +1,8 @@
 package ma.beans;
+/**
+ *
+ * @author Ismail
+ */
 
 import java.util.Date;
 

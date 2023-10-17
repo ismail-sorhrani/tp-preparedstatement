@@ -10,7 +10,7 @@ import ma.beans.Employe;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class TestEmploye {
     public static void main(String[] args) {

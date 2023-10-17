@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public interface IDao<T> {
 

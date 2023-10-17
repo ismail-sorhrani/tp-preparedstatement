@@ -9,7 +9,7 @@ import ma.service.MessageService;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class TestCreateTableMessage {
     public static void main(String[] args) {

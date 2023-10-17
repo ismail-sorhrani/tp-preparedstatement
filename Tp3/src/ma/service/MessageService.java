@@ -22,7 +22,7 @@ import ma.dao.IDao;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class MessageService implements IDao<Message> {
 

@@ -12,7 +12,7 @@ import ma.service.MessageService;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class TestMessage {
 
