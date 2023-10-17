@@ -23,7 +23,7 @@ import ma.projet.impl.ProfilImpl;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class PersonneImpl implements IDao<Personne>{
     ProfilImpl pi=new ProfilImpl();
