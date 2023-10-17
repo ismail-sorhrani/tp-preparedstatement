@@ -5,7 +5,8 @@
  */
 package ma.projet.bean;
 
-import java.sql.Date;
+import java.util.Date;
+import ma.projet.bean.Profil;
 
 /**
  *
@@ -34,13 +35,30 @@ public class Personne {
         this.profil=profil;
     }
 
-    public Personne(String nom, String prenom, String ville, Date dateNaiss, String email, double Salaire) {
+    public Personne(int id,String nom, String prenom, String ville, Date dateNaiss, String email, double Salaire) {
         this.nom = nom;
         this.prenom = prenom;
         this.ville = ville;
         this.dateNaiss = dateNaiss;
         this.email = email;
         this.Salaire = Salaire;
+    }
+
+    public Personne(int id, String nom, String prenom, String ville, Date dateNaiss, String email, double Salaire, Profil profil) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.ville = ville;
+        this.dateNaiss = dateNaiss;
+        this.email = email;
+        this.Salaire = Salaire;
+        this.profil = profil;
+    }
+
+    public Personne(int id, String nom, Profil profil) {
+        this.id = id;
+        this.nom = nom;
+        this.profil = profil;
     }
     
 
@@ -107,16 +125,14 @@ public class Personne {
     public void setProfil(Profil profil) {
         this.profil = profil;
     }
-    
 
     @Override
     public String toString() {
-        return "Personne{" + "id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", ville=" + ville + ", dateNaiss=" + dateNaiss + ", email=" + email + ", Salaire=" + Salaire + '}';
+        return "Personne{" + "id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", ville=" + ville + ", dateNaiss=" + dateNaiss + ", email=" + email + ", Salaire=" + Salaire + ", profil=" + profil + '}';
     }
+    
 
-    public Object getDate() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
     
     
 }

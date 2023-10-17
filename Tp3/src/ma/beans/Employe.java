@@ -7,7 +7,7 @@ package ma.beans;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class Employe {
     private int id;

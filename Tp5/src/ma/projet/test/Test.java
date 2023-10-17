@@ -20,11 +20,18 @@ public class Test {
         ProfilImpl pi=new ProfilImpl();
        // pi.create(new Profil("13", "Manager"));
         PersonneImpl psi=new PersonneImpl();
-       // psi.create(new Personne("Sorhrani", "Ismail", "Tafraout", new java.sql.Date(1920, 2, 2), "smail@gmail.com",100.01, pi.findById(3)));
+        //System.out.println(psi.findById(12));
         //for(Profil p : pi.findAll())
          //   System.out.println(p.getId());
-        //System.out.println(pi.findById(13).getId());
+        //System.out.println(pi.findById(4));
+//        for(Personne p : psi.findAll()){
+//            System.out.println(p);}
+         for(Personne p : psi.findAll()){
+             System.out.println(p);
+         }
+        //psi.delete(new Personne(5,"newtest", "newTset", "jdida", new Date(), "test", 1200, pi.findById(3)));
         
+        }
     }
     
-}
+

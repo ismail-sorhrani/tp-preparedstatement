@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class Connexion {
     private static String login = "root";

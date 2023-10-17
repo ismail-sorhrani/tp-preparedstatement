@@ -42,16 +42,17 @@ public class ProfilImpl implements IDao<Profil>{
 
     @Override
     public boolean update(Profil o) {
-        String req = " UPDATE profil SET code = ? ,libelle=?";
+        String req = " UPDATE profil SET code = ? ,libelle=? WHERE id = ?";
         try {
             PreparedStatement pr = Connexion.getConnection().prepareStatement(req);
             pr.setString(1, o.getCode());
             pr.setString(2, o.getLibelle());
+            pr.setInt(3,o.getId());
             if (pr.executeUpdate() == 1) {
                 return true;
             }
         } catch (SQLException e) {
-            System.out.println("erreur de modification de profil" + e.getMessage());
+            System.out.println("erreur de modification de profil " + e.getMessage());
         }
         return false;
     }

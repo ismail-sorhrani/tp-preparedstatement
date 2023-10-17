@@ -9,7 +9,7 @@ import ma.service.DevelopperService;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class TestNbScriptSemaine {
     public static void main(String[] args) {

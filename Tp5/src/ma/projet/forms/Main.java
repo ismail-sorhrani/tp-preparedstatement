@@ -7,7 +7,7 @@ package ma.projet.forms;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class Main extends javax.swing.JFrame {
 

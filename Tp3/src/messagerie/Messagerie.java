@@ -7,7 +7,7 @@ package messagerie;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class Messagerie {
     
