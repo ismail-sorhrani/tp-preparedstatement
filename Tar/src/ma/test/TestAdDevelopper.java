@@ -10,7 +10,7 @@ import ma.service.DevelopperService;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class TestAdDevelopper {
     public static void main(String[] args) {

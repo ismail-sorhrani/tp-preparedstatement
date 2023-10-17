@@ -15,7 +15,7 @@ import ma.projet.impl.ProfilImpl;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class GestionEmloyes extends javax.swing.JInternalFrame {
     ProfilImpl pi =new ProfilImpl();

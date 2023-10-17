@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package ma.connexion;
+/**
+ *
+ * @author Ismail
+ */
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 public class DevelopperService implements Dao<Developper>{
     

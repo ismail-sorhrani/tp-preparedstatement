@@ -14,7 +14,7 @@ import ma.projet.impl.ProfilImpl;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class GestionProfil extends javax.swing.JInternalFrame {
     private DefaultTableModel model = null;

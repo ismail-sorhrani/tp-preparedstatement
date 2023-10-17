@@ -10,7 +10,7 @@ import ma.projet.bean.Profil;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class Personne {
     private int id ;

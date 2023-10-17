@@ -12,7 +12,7 @@ import ma.beans.Developper;
 
 /**
  *
- * @author PC
+ * @author Ismail
  */
 
     public interface Dao <T> {

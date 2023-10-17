@@ -13,7 +13,7 @@ import ma.projet.impl.ProfilImpl;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class Test {
     public static void main(String[] args) {

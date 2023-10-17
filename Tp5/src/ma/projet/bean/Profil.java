@@ -7,7 +7,7 @@ package ma.projet.bean;
 
 /**
  *
- * @author H P
+ * @author Ismail
  */
 public class Profil {
     private int id;
